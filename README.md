@@ -35,7 +35,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 SpaceX <a name="about-project"></a>
+# 📖 React/Redux Capston<a name="about-project"></a>
 
 > This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that you will create making use of React and Redux.
 
@@ -73,7 +73,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://spacex-hub-tefm.onrender.com/)
+- [Live Demo Link]( https://frnega.github.io/react-capstone/)
 - [Live Demo Link](https://spacex-hub-tefm.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
