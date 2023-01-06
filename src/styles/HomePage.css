@@ -1,0 +1,29 @@
+.countries-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.headline {
+  position: relative;
+  height: 150px;
+  padding: 10px;
+}
+
+.headline::before {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzU4bu7rvSi3gb2gQg_XIt6YjTzo3cjZ_JyA&usqp=CAU");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  opacity: 0.3;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.world-statistic {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
