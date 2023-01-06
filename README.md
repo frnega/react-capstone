@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="logo.png" alt="logo" width="140"  height="auto" />
+  <!-- <img src="logo.png" alt="logo" width="140"  height="auto" /> -->
   <br/>
 
   <h3><b>React/Redux Capston</b></h3>
@@ -73,8 +73,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]( https://frnega.github.io/react-capstone/)
-- [Live Demo Link](https://spacex-hub-tefm.onrender.com/)
+- [Live Demo Link]( https://react-reduxnew1.onrender.com)
+- [Live video Link](https://www.loom.com/share/a17578a43b34437183a8d2e94c761961)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
