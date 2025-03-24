@@ -137,7 +137,7 @@ You can deploy this project using:
 
 👤 **Frehiywot Nega**
 
-- GitHub: [@frnega](hhttps://github.com/frnega)
+- GitHub: [@frnega](https://github.com/frnega)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
