@@ -1,6 +1,87 @@
 .countries-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  grid-auto-rows: minmax(200px, auto);
+  justify-items: center;
+  align-items: start;
+  transition: all 0.3s ease;
+}
+
+.countries-grid-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: var(--bg-color-light);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.countries-grid-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.countries-grid-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.3;
+  transition: opacity 0.3s ease;
+}
+
+.countries-grid-item:hover::before {
+  opacity: 0.5;
+}
+
+.country-flag {
+  width: 70px;
+  height: 50px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.countries-grid-item:hover .country-flag {
+  transform: scale(1.1);
+}
+
+.country-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--text-color-dark);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.countries-grid-item:hover .country-name {
+  color: var(--primary-color);
+}
+
+.country-statistic {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--text-color-light);
+  transition: color 0.3s ease;
+}
+
+.countries-grid-item:hover .country-statistic {
+  color: var(--primary-color-light);
+}
+
+@media (max-width: 768px) {
+  .countries-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .headline {
